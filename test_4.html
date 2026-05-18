@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>acompaore — \comment{================================================</title><style>
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ambrine — Nombres décimaux (1)</title><style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,sans-serif;padding:10px;background:#fff}
 .header-titre{background:#5B2D8E;color:#fff;font-size:14px;font-weight:700;
@@ -6,11 +6,11 @@ body{font-family:Arial,sans-serif;padding:10px;background:#fff}
 .header-liens{background:#8462B3;padding:5px 14px;border-radius:0 0 10px 10px;
   display:flex;justify-content:space-around;margin-bottom:12px}
 .header-liens a{color:#fff;text-decoration:none;font-size:12px;font-weight:600}
-.header-liens .locked{color:rgba(255,255,255,0.4);font-size:12px;font-weight:600;
+.locked{color:rgba(255,255,255,0.4);font-size:12px;font-weight:600;
   display:flex;align-items:center;gap:4px}
 table{border-collapse:separate;border-spacing:3px;width:100%;font-size:12px}
 th{background:#EEEDF8;color:#3C3489;padding:5px 7px;text-align:center;
-   border-radius:6px;font-weight:700;white-space:nowrap}
+  border-radius:6px;font-weight:700;white-space:nowrap}
 th.label{min-width:160px;width:160px;background:transparent}
 td.label{padding:6px 8px;font-weight:700;font-size:11px;text-transform:uppercase;
   letter-spacing:.04em;white-space:nowrap}
@@ -19,14 +19,20 @@ td.eval-label{color:#1e40af}
 td.cell{padding:4px;text-align:center;border-radius:7px}
 td.entr-cell{background:#F0FAF4}
 td.eval-cell{background:#EEF2FF}
-td.empty-cell{background:#F5F5F5}
 .gap{height:3px}
-</style></head><body><div class="header-titre">\comment{================================================</div>
-<div class="header-liens">
-  <a href="\adm{module=adm/sheet&sh=4}">🏃 Entraînements</a>
-  <span class="eval-link-placeholder" data-sh="19">🏆 Évaluations</span>
-</div>
-<table>
+.temps-wrap{border-radius:10px;overflow:hidden;border:1.5px solid #2F5D0E;margin-bottom:10px}
+.temps-titre{background:#2F5D0E;color:#fff;font-size:13px;font-weight:700;
+  padding:8px 14px;text-align:center;letter-spacing:.03em}
+.temps-body{background:#f6fbf2;padding:8px 10px;display:flex;flex-direction:column;gap:5px}
+.temps-row{display:flex;align-items:center;justify-content:space-between;
+  background:#fff;border-radius:7px;padding:6px 10px;border:1px solid #d4edc1}
+.temps-date{font-size:12px;color:#555}
+.temps-val{font-size:13px;font-weight:700}
+.temps-com{font-size:11px;color:#666;font-style:italic}
+.val-ok{color:#2F5D0E}
+.val-bad{color:#D64545}
+.val-mid{color:#F2A93B}
+</style></head><body><table>
 <thead><tr><th class="label"></th><th>N21</th><th>N22</th><th>N23</th><th>N24</th><th>N25</th></tr></thead>
 <tbody>
 <tr><td class="label entr-label">🏃 entraînements</td><td class="cell entr-cell"><svg width="16" height="16"><circle cx="8" cy="8" r="8" fill="#A8D66D"/></svg></td><td class="cell entr-cell"><svg width="16" height="16"><circle cx="8" cy="8" r="8" fill="#D64545"/></svg></td><td class="cell entr-cell"><svg width="16" height="16"><circle cx="8" cy="8" r="8" fill="#D64545"/></svg></td><td class="cell entr-cell"><svg width="16" height="16"><circle cx="8" cy="8" r="8" fill="#D64545"/></svg></td><td class="cell entr-cell"><svg width="16" height="16"><circle cx="8" cy="8" r="8" fill="#D64545"/></svg></td></tr>
